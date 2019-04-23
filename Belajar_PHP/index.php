@@ -1,8 +1,6 @@
 <?php
 $hari = date("d");
 
-
-
 if ($hari < "10") {
     echo "awal bulan";
 } else if ($hari > 20) {
@@ -48,8 +46,6 @@ var_dump($kelas);
 
 echo "<br>";
 echo $kelas[1] . "<br>";
-
-
 
 foreach ($kelas as $k) {
     echo $k . "<br>";
