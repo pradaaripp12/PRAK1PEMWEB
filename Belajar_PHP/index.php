@@ -1,6 +1,7 @@
 <?php
 $hari = date("d");
 
+
 if ($hari < "10") {
     echo "awal bulan";
 } else if ($hari > 20) {
